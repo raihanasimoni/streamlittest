@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-st.image(r'C:\Users\welcome\Desktop\BSMS1306\streamlit\Header.png')
+#st.image(r'C:\Users\welcome\Desktop\BSMS1306\streamlit\Header.png')
 
 st.date_input("Select a date")
 
@@ -13,7 +13,8 @@ This is my first time using streamlit.""")
 #upload data
 #upload_file = st.file_uploader("Please upload here:", type = 'csv')
 
-df = pd.read_csv(r"C:\Users\welcome\Desktop\BSMS1306\streamlit\Tips.csv")
+#df = pd.read_csv(r"C:\Users\welcome\Desktop\BSMS1306\streamlit\Tips.csv")
+df = pd.read_csv("Tips.csv")
 #df = pd.read_csv(upload_file)
 
 #show data
